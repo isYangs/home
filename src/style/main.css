@@ -1,0 +1,19 @@
+:root {
+    --c-bg: #f0f0f0;
+    --switch-bg: #cecece;
+}
+
+html {
+    background-color: var(--c-bg);
+}
+
+html.dark {
+    --c-bg: #20202a;
+    --switch-bg: #3a3a3a;
+}
+
+body,
+#app {
+    width: 100%;
+    min-height: 100vh;
+}
